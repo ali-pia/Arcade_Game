@@ -1,6 +1,6 @@
 # FRONT-END NANODEGREE: ARCADE GAME PROJECT 4 #
 
-This project is a part of the **Front-End Development Nanodegree program ** with **Udacity**.****
+This project is a part of **Front-End Development Nanodegree program ** with **Udacity**.
 
 A classic arcade game made object-oriented JavaScript.
 
