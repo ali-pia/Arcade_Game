@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-image: url('../images/spring.jpg');
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+}
+
+
+/* GitHub-style ribbon
+ * Tutorial at http://unindented.org/articles/github-ribbon-using-css-transforms 
+ */
+
+.ribbon {
+  background-color: #a00;
+  overflow: hidden;
+  white-space: nowrap;
+  /* top left corner */
+  position: absolute;
+  left: -50px;
+  top: 40px;
+  /* 45 deg ccw rotation */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* shadow */
+  -webkit-box-shadow: 0 0 10px #888;
+  -moz-box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #888;
+}
+
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  text-shadow: 0 0 5px #444;
+}
+
+#instructions {
+  margin: 0 auto;
+  width: 300px;
+  height: 150px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #F0FFF0;
+  float: left;
+  margin-top: 7%;
+  margin-left: 3%;
+  text-align: center;
+  line-height: 30px;
+}
+
+canvas {
+  float: right;
+  margin-right: 30%;
+}
