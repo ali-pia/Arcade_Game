@@ -9,7 +9,7 @@ Download zip or clone [repository](https://github.com/ali-pia/Arcade_Game "Arcad
 To open the game on your browser double-click on index.html.
 
 ## Screenshot
-![Arcade Game](C:\Users\Alice\Desktop\Arcade_Game\screenshot_arcade_game.png)
+![Arcade Game](https://github.com/ali-pia/Arcade_Game/blob/master/images/screenshot_arcade_game.png)
 
  
 #To try immediatly
