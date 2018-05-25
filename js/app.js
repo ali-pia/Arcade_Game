@@ -3,8 +3,9 @@ var score = 0;
 document.getElementById('playerScore').innerHTML = score;
 
 // variables'setting  Game's Enemies 
-var Enemy = function(x, y) {
+var Enemy = function(x, y, speed) {
     this.sprite = 'images/spider.png';
+    this.speed = speed;
     this.x = x;
     this.y = y;
 };
@@ -14,6 +15,7 @@ var Enemy = function(x, y) {
  */
 Enemy.prototype.update = function(dt) {
     if (this.x < 505) {
+        this.x = (this.speed * dt) + this.x;
         this.x += (150 * dt);
     } else {
         this.x = -90;
@@ -78,16 +80,16 @@ Player.prototype.handleInput = function(direction) {
 //  player's reset to the starting point
 Player.prototype.reset = function() {
     this.x = 200;
-    this.y = 320;
+    this.y = 400;
 };
 
 // Now instantiate your objects.
-var enemy1 = new Enemy(-90, 60);
-var enemy2 = new Enemy(-190, 140);
-var enemy3 = new Enemy(-290, 230);
-var enemy4 = new Enemy(-390, 140);
-var enemy5 = new Enemy(-490, 60);
-var enemy6 = new Enemy(-890, 230);
+var enemy1 = new Enemy(-90, 60, 10) ;
+var enemy2 = new Enemy(-190, 140, 40);
+var enemy3 = new Enemy(-290, 230, 90);
+var enemy4 = new Enemy(-390, 140, 30);
+var enemy5 = new Enemy(-490, 60, 60);
+var enemy6 = new Enemy(-890, 230, 90);
 
 // Place all enemy objects in an array called allEnemies
 var allEnemies = [enemy1, enemy2, enemy3, enemy4, enemy5, enemy6];
