@@ -12,7 +12,7 @@ To open the game on your browser double-click on index.html.
 ![Arcade Game](https://github.com/ali-pia/Arcade_Game/blob/master/images/screenshot_arcade_game.png)
 
  
-#To try immediatly
+#To try immediatly  https://ali-pia.github.io/Arcade_Game/
 
 
 
