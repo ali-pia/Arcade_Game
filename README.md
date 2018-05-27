@@ -20,7 +20,7 @@ To open the game on your browser double-click on index.html.
 
 ## How to play ##
 Press enter to start the game. Use the arrow keys to move up, down, left and right. The objective is to reach the top of the water. Each time you reach the top of the water  you gain a point. Beware if the spiders reach you,  you lose points and return to the start point.
-
+Good fun!
 
 ## Build setup ##
 
